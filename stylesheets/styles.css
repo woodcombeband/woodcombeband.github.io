@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'NothingYouCouldDo';
+    src: url(fonts/NothingYouCouldDo.ttf) format('truetype');
+}
+
 body {
     background-color: #ffe2a3;
+    font-family: 'NothingYouCouldDo';
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 54px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.6;
+    margin: 20px;
 }
