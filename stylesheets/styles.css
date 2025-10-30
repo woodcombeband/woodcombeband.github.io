@@ -61,3 +61,19 @@ li {
     width: 100%;
     text-align: center;
 }
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(95, 95, 95);
+}
+
+a:active {
+  color: rgb(95, 95, 95);
+}
