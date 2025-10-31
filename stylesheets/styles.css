@@ -78,3 +78,7 @@ a:hover {
 a:active {
   color: rgb(95, 95, 95);
 }
+
+.nav-icon:hover {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(75%) contrast(90%);
+}
