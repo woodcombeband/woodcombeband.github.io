@@ -82,3 +82,20 @@ a:active {
 .nav-icon:hover {
     filter: brightness(0) saturate(100%) invert(37%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(75%) contrast(90%);
 }
+
+.bible-reference:link {
+  color: rgb(65, 97, 156);
+  text-decoration: underline;
+}
+
+.bible-reference:visited {
+  color: rgb(65, 97, 156);
+}
+
+.bible-reference:hover {
+  color: rgb(126, 144, 173);
+}
+
+.bible-reference:active {
+  color: rgb(126, 144, 173);
+}
