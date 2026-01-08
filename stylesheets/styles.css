@@ -99,3 +99,19 @@ a:active {
 .bible-reference:active {
   color: rgb(126, 144, 173);
 }
+
+.link-underline:link {
+  text-decoration: underline;
+}
+
+.link-underline:visited {
+  text-decoration: underline;
+}
+
+.link-underline:hover {
+  text-decoration: underline;
+}
+
+.link-underline:active {
+  text-decoration: underline;
+}
