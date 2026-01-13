@@ -73,6 +73,7 @@ a:visited {
 
 a:hover {
   color: rgb(95, 95, 95);
+  text-decoration: underline;
 }
 
 a:active {
