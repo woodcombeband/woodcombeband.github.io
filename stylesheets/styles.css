@@ -72,11 +72,12 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(95, 95, 95);
   text-decoration: underline;
+  color: rgb(95, 95, 95);
 }
 
 a:active {
+  text-decoration: underline;
   color: rgb(95, 95, 95);
 }
 
