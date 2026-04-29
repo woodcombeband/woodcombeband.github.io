@@ -108,3 +108,37 @@ h3 {
 .quip {
   font-style: italic;
 }
+
+/* ── Mobile adjustments ── */
+@media (max-width: 600px) {
+  body {
+    font-size: 17px;
+  }
+ 
+  h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+  }
+ 
+  h2 {
+    font-size: 22px;
+  }
+ 
+  h3 {
+    font-size: 18px;
+  }
+ 
+  .tagline {
+    font-size: 15px;
+  }
+ 
+  .footer {
+    font-size: 14px;
+  }
+ 
+  .content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 16px;
+  }
+}
