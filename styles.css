@@ -127,6 +127,11 @@ h3 {
   h3 {
     font-size: 18px;
   }
+
+  .youtube-embed {
+    width: 100%;
+    height: auto;
+  }
  
   .tagline {
     font-size: 15px;
