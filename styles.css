@@ -1,8 +1,13 @@
+html {
+  background: #6b8f71;
+}
+
 body {
   margin: 0;
-  background-color: #efe9df;
+  background-color: #efe9df; /* keep your original color */
   color: #2b2621;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  position: relative;
 }
 
 a {
@@ -44,6 +49,7 @@ h3 {
   text-align: center;
   padding: 20px 0;
 }
+
 
 .header-tagline {
   margin-top: 10px;
