@@ -11,8 +11,7 @@
   }
 
   var stored = localStorage.getItem(STORAGE_KEY);
-  var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  var initialTheme = stored || (prefersDark ? "dark" : "light");
+  var initialTheme = stored || "light";
   applyTheme(initialTheme);
 
   document.addEventListener("DOMContentLoaded", function () {
