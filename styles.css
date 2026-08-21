@@ -206,7 +206,8 @@ nav a {
 }
 
 main {
-  width: 760px;
+  max-width: 760px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -216,6 +217,10 @@ main {
   background-color: var(--box-bg);
   box-shadow: 2px 2px 0px var(--box-shadow);
   padding: 15px;
+}
+
+.youtube-embed {
+  aspect-ratio: 16 / 9;
 }
 
 footer {
@@ -280,6 +285,10 @@ address {
     font-size: 18px;
   }
 
+  main {
+    width: 90%;
+  }
+
   .youtube-embed {
     width: 100%;
     height: auto;
@@ -289,7 +298,7 @@ address {
     font-size: 15px;
   }
 
-  .footer {
+  footer {
     font-size: 14px;
   }
 
@@ -299,13 +308,13 @@ address {
     padding: 20px 16px;
   }
 
-  .nav {
+  nav {
     flex-direction: column;
     gap: 10px;
     padding: 12px 16px;
   }
 
-  .nav a {
+  nav a {
     margin: 0 8px;
     font-size: 16px;
   }
