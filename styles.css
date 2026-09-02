@@ -118,6 +118,16 @@ header {
   padding: 20px 0;
 }
 
+ .future-release {
+    color: red;
+    font-weight: bold;
+  }
+
+  .album-artwork {
+    max-width: 35%;
+    height: auto;
+    margin-top: 10px;
+  }
 
 .header-tagline {
   margin-top: 10px;
@@ -287,6 +297,14 @@ address {
 
   main {
     width: 90%;
+  }
+
+  .album-artwork {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
   }
 
   .youtube-embed {
